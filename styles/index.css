@@ -1,0 +1,33 @@
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    main #btn {
+        padding: 8px 20px;
+        background-color: #20db08;
+        color: white;
+        cursor: pointer;
+        margin: 0;
+        justify-content: center;
+       text-align: center; 
+    }
+    
+    
+    
+    body{
+        background-color: black;
+    }
+    main {
+        color: white;
+        margin-top: 50%;
+        text-align: center;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
