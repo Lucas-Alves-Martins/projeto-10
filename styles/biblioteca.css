@@ -1,0 +1,154 @@
+@media screen and (min-width:320px) and (max-width:767px){
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 3px;
+        margin-left: 32px
+        
+    }
+    
+    header {
+        background-color: #d43131;
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header .logon{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;   
+    }
+    
+    .logo img{
+        display: flex;
+        height: 90px;
+        justify-content: left;
+    
+    }
+    
+    .link-block{
+        width: 100%;
+        display: grid;
+    
+    }
+    
+    .pesquisar{
+         width: 60%;
+         height: 40%;
+         margin-left: 10px;
+         margin-right: 0;
+        
+    }
+    
+    header .categorias {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header .categorias {
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    main {
+        display: block;
+        position: relative;
+        padding: 0 20px;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 3px;
+        margin-left: 32px;
+      
+    }
+    
+    header {
+        background-color: #d43131;
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header .logon{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;
+    }
+    
+    .logo img{
+        display: flex;
+        height: 90px;
+        justify-content: left;
+    }
+    
+    .link-block{
+        width: 100%;
+        display: grid;    
+    }
+
+    .pesquisar{
+         width: 60%;
+         height: 40%;
+         margin-left: 10px;
+         margin-right: 0;
+    }
+    
+   .categorias ul a{
+        display:flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    main {
+        display: block;
+        position: relative;
+        padding: 0 20px;
+    }
+}
